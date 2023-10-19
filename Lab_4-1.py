@@ -9,3 +9,18 @@ Create a new variable for the user's full name and set it equal to the first nam
 Is there an issue with this output? How could we fix that?
 
 """
+
+#aurthor: Jon Morris
+#Stores First Name
+namef = input ("what is your first name?")
+
+#stores last name
+name1 = input("what is your last name?")
+
+#Combines first and last name
+name = namef + name1
+print (name)
+
+#No space between the first and last name, could be fixed by putting a space in quotes
+name = namf + " " + name1
+print (name)
